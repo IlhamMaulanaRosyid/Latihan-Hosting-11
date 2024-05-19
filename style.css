@@ -1,0 +1,19 @@
+body {
+  background: rgb(254, 35, 35);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minimax(125px 1fr));
+  margin: 50px;
+  align-items: center;
+  grid-gap: 10px;
+}
+img {
+  object-fit: cover;
+}
+.grid > img {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
